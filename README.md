@@ -48,11 +48,13 @@ This project provisions a Docker container running an Nginx web server using Ter
   ```bash
      docker ps
 
-### ✅ Confirm the Nginx Server is Running
+**✅ Confirm the Nginx Server is Running**
 
-     Open your browser and visit: http://localhost:8080/
-      
-      You should see the default **Nginx welcome page**, confirming that the container is up and running successfully.
+Open your browser and visit:
+http://localhost:8080
+
+You should see the default Nginx welcome page, confirming that the container is up and running successfully.
+
 
 
 
