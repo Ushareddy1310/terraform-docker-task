@@ -43,16 +43,26 @@ This project provisions a Docker container running an Nginx web server using Ter
    terraform apply
 6. **Verify the Docker Container**
 
-  After applying the Terraform configuration, verify that the Docker container is running by executing:
+   After applying the Terraform configuration, verify that the Docker container is running by executing:
 
   ```bash
-  docker ps
-7. **Access the Nginx Server**
+     docker ps
 
-   Open your web browser and go to:
-   http://localhost:8080/
-   
-   You should see the default Nginx welcome page, confirming that the container is running and accessible.
+### ✅ Confirm the Nginx Server is Running
+
+     Open your browser and visit: http://localhost:8080/
+      
+      You should see the default **Nginx welcome page**, confirming that the container is up and running successfully.
+
+
+
+
+
+
+
+
+
+
 
 
 
