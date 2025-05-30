@@ -45,9 +45,8 @@ This project provisions a Docker container running an Nginx web server using Ter
 
    After applying the Terraform configuration, verify that the Docker container is running by executing:
 
-  ```bash
      docker ps
-
+ <code> ```bash</code>
 **✅ Confirm the Nginx Server is Running**
 
 Open your browser and visit:
